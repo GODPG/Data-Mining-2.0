@@ -1,32 +1,32 @@
 # Decision Trees & PCA Analysis
 
-本项目包含了三个实验代码，分别使用了 Iris 数据集和乳腺癌（Breast Cancer Wisconsin）数据集，来演示决策树分类和 PCA 降维在模型中的应用。除此之外，还提供了决策树结构的可视化示例代码。
+This project contains three experimental scripts using the Iris dataset and the Breast Cancer Wisconsin datasets. It demonstrates decision tree classification and PCA dimensionality reduction, and includes an additional script for visualizing the decision tree structure.
 
-## 目录
+## Contents
 
 - **Problem 1:**  
-  使用 Iris 数据集，构造不同最大深度的二元决策树，并比较 Recall、Precision 和 F1 Score。
-  
-- **Problem 2:**  
-  使用乳腺癌离散数据集构建深度为 2 的决策树，并计算首个节点的 Entropy、Gini 和 Misclassification Error，分析信息增益及选择的特征和分割值。
-  
-- **Problem 3:**  
-  使用乳腺癌连续数据集，在决策树建模前进行 PCA 降维，分别使用 1 个和 2 个主成分构造模型，并对比模型性能（F1 Score、Precision、Recall 以及混淆矩阵）。
-  
-- **Visualize Tree:**  
-  提供一个额外的脚本，用于导出并可视化决策树的结构（依赖 graphviz 和 pydot）。
+  Use the Iris dataset to construct binary decision trees with different maximum depths, comparing Recall, Precision, and F1 Score.
 
-## 依赖
+- **Problem 2:**  
+  Use the Breast Cancer Wisconsin discrete dataset to build a decision tree with a maximum depth of 2. It calculates the Entropy, Gini, and Misclassification Error at the first split, and analyzes the information gain along with the selected feature and threshold.
+
+- **Problem 3:**  
+  Use the Breast Cancer Wisconsin continuous dataset. Train a decision tree on the original data, then perform PCA for dimensionality reduction (using 1 and 2 principal components) and compare the performance (F1 Score, Precision, Recall, and confusion matrix).
+
+- **Visualize Tree:**  
+  Provides an extra script to export and visualize the decision tree structure using Graphviz and pydot.
+
+## Dependencies
 
 - Python 3.x
 - pandas
 - scikit-learn
 
-额外依赖（仅用于决策树可视化）：
+Additional dependencies (only for decision tree visualization):
 - graphviz
 - pydot
 
-安装依赖：
+Install dependencies via:
 
 ```bash
 pip install -r requirements.txt
