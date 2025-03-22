@@ -13,9 +13,6 @@ This project contains three experimental scripts using the Iris dataset and the 
 - **Problem 3:**  
   Use the Breast Cancer Wisconsin continuous dataset. Train a decision tree on the original data, then perform PCA for dimensionality reduction (using 1 and 2 principal components) and compare the performance (F1 Score, Precision, Recall, and confusion matrix).
 
-- **Visualize Tree:**  
-  Provides an extra script to export and visualize the decision tree structure using Graphviz and pydot.
-
 ## Dependencies
 
 - Python 3.x
